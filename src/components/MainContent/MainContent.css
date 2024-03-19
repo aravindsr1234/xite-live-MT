@@ -1,0 +1,56 @@
+img {
+    width: 100%;
+    max-height: 700px;
+}
+
+.container {
+    max-width: 1360px;
+    margin: auto;
+}
+
+.MainData {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    /* color: #83898e; */
+    color: black;
+}
+
+.MainData h1 {
+    font-size: 50px;
+}
+
+.MainData h3 {
+    font-size: 30px;
+}
+
+.leftSideIndex{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.rightSideIndex{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+
+.MainContent button {
+    border: 1px solid black;
+    padding: 2px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    background-color: white;
+}
+
+.MainData_button {
+    border: none !important;
+    background-color: red !important;
+    color: black !important;
+    margin-top: 10px;
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+}

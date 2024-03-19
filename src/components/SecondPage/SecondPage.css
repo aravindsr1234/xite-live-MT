@@ -1,0 +1,50 @@
+.secondPage_header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px 0;
+}
+
+.secondPage_header p {
+    font-size: 15px;
+    padding: 0 120px;
+    margin: 25px 0;
+}
+
+.secondPage {
+    /* background: rgb(10, 1, 1); */
+    /* background: linear-gradient(90deg, rgba(10, 1, 1, 1) 26%, rgba(255, 0, 0, 1) 82%); */
+    background-image: linear-gradient(to top right, red, black);
+}
+
+.secondPage_flavour {
+    color: white;
+    padding-bottom: 25px;
+}
+
+.flavour_content {
+    padding-left: 12%;
+}
+
+.flavour_mainHeading {
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.flavours {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flavours h1{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1.1px;
+    margin-bottom: 15px;
+}
+
